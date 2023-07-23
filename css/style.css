@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 17, 2019, 1:17:53 PM
+    Author     : Tanveer Qureshee
+*/
+.modal-content{    
+    background-color: lightgoldenrodyellow !important;
+}
+.login-box{
+    background-color: white;
+}
+.login-logo-overwrite a{
+    font-size: 25px !important;
+    color: black;
+}
+.json_alert_message{
+    display: none;
+}
+.login-background{
+    background-image: url(../images/images/application_bg.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.content-wrapper{
+    background-image: url(../images/images/application_dashboard_bg.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.login-box-body{
+    margin-top: -42px;
+}
+
+table.list-table-custom-style{
+    background-color: lightgray;
+}
+table.list-table-custom-style tr th{
+    font-size: 13px;
+    text-align: center;
+}
+table.list-table-custom-style tr td{
+    font-size: 13px;
+    padding-top:.5%;
+}
+
+.sms_balance_showing_top{
+    float: left;
+    margin-top: 2.5%;
+    color: white;
+    font-weight: bold;
+}
+.sms_balance_showing_top ul{
+    list-style:none;
+    float:left;
+}
+.sms_balance_showing_top ul li{
+    float: left;
+    width: 235px;
+    font-weight: bold;
+    text-align: right;
+}
+.rlpno_style{
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid;
+    width: max-content;
+    color: red;
+    background: yellow;
+}
+table.seperation_table_style{
+    border: 1px solid lightgrey !important;
+    background-color: white !important;
+    border-radius: 2px;
+}
+.user_assign_common_check{
+    display: none;
+}
+
+table#user_list_table select{
+    padding: 0 5px;
+    margin: 0;
+    border-radius: 5px;
+    width: 125px !important;
+    height: 25px;
+    background-color: lightgray;
+}
+.form-control{
+	border-radius:4px;
+	height:28px;
+	border-color:#000000;
+}
+

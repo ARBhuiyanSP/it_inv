@@ -1,0 +1,211 @@
+
+#rrr-form{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    max-width: 90%;
+    width: 100%;
+    background: #F5F5F5;
+    box-shadow: -35px 35px 20px rgba(0,0,0,0.3);
+    padding: 2%;
+    margin: 5%;
+}
+#rrr-form h2{
+    text-align: center;
+}
+#rrr-form h3{
+    margin: 10px 0;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-1 .box-1{
+    display: flex;
+    display: inline-block;
+    width: 36%;
+    padding: 2%;
+}
+.section-1 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 56%;
+    padding: 2%;
+}
+.section-1 input{
+    background: #F5F5F5;
+    border: none;
+    border-bottom: 1px dotted black;
+    width: 100%;
+    height: 20px;
+}
+.section-1 .box-1 input{
+    height: 40px;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-2 .box-1{
+    display: flex;
+    display: inline-block;
+    width: 36%;
+    padding: 2%;
+}
+.section-2 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 56%;
+    padding: 2%;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-3 .box-1{
+    display: flex;
+    display: inline-block;
+    width: 36%;
+    padding: 2%;
+}
+.section-3 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 56%;
+    padding: 2%;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-4 .box-1{
+    display: flex;
+    display: inline-block;
+    width: 36%;
+    padding: 2%;
+}
+.section-4 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 56%;
+    padding: 2%;
+}
+.section-5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-5 textarea{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.section-5 .box-3{
+    display: flex;
+    display: inline-block;
+    width: 46%;
+    padding: 2%;
+}
+.section-5 .box-4{
+    display: flex;
+    display: inline-block;
+    width: 46%;
+    padding: 2%;
+}
+.section-6{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-6 .box-1{
+    display: flex;
+    display: inline-block;
+    width: 36%;
+    padding: 2%;
+}
+.section-6 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 56%;
+    padding: 2%;
+}
+.section-7{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: inline-block;
+    padding: 0 5%;
+    line-height: 1.5em;
+}
+.section-7 input{
+    border: none;
+    border-bottom: 1px dotted;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.section-8{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: inline-block;
+    line-height: 1.5em;
+    padding: 5%;
+}
+.section-8 textarea{
+    display: flex;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.section-9{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+    line-height: 2em;
+}
+.section-9 .box-1{
+    display: flex;
+    width: 46%;
+    display: inline-block;
+}
+.section-9 input{
+    width: 100%;
+}
+.section-9 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 46%;
+}
+.section-10{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+    line-height: 2em;
+}
+.section-10 .box-1{
+    display: flex;
+    width: 46%;
+    display: inline-block;
+}
+.section-10 input{
+    width: 100%;
+}
+.section-10 .box-2{
+    display: flex;
+    display: inline-block;
+    width: 46%;
+}
+.section-11{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+}
+.section-12{
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+}
