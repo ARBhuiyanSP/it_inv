@@ -122,11 +122,11 @@ $user_type = $_SESSION['logged']['type'];
                     <a href="assign-list.php"><i class="fa fa-file-text-o"></i> <span>Assigned</span></a>
                 </li>
 
-                <!-- <li class="<?php if ($page_name == "service_entry.php") {
+                <li class="<?php if ($page_name == "service_entry.php") {
                 echo "active";
             } ?>">
                     <a href="service_entry.php"><i class="fa fa-file-text-o"></i> <span>Service Area</span></a>
-                </li> -->
+                </li>
 				
 <li class="header">Consumable Products</li>
 				<li class="<?php if ($page_name == "receive-list.php") {
