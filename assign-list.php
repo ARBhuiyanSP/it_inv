@@ -93,7 +93,7 @@ $(document).ready(function(){
     data:{is_employees:is_employees}
    },
     "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
-            if ( aData[5] == "Active" )
+            if ( aData[4] == "Active" )
             {
 				$('td', nRow).css('background-color', '#b01a33');
 				$('td', nRow).css('color', '#fff');
