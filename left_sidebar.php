@@ -78,7 +78,7 @@ $user_type = $_SESSION['logged']['type'];
             } ?>"><a href="backup_system.php"><i class="fa fa-download" aria-hidden="true"></i> <span>Data Backup</span></a></li>
 <?php } ?>
             <li class="header">Operation</li>
-            <?php if (hasAccessPermission($user_id_session, 'rlp_list', 'view_access')) { ?>
+           
 				<li class="<?php if ($page_name == "rlp_list.php") {
                 echo "active";
             } ?>">
@@ -108,7 +108,7 @@ $user_type = $_SESSION['logged']['type'];
             } ?>">
                     <a href="equipment_list.php"><i class="fa fa-file-text-o"></i> <span>Equipment</span></a>
                 </li> -->
-				<?php } ?>
+				
 <li class="header">Assets</li>
 				<li class="<?php if ($page_name == "assets-list.php") {
                 echo "active";
