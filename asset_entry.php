@@ -1,4 +1,5 @@
 <?php include 'header.php';
+include 'includes/asset_process.php';
     $_SESSION['activeMenu'] =   'agency';
 ?>
 <?php include 'top_sidebar.php'; ?>

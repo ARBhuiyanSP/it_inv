@@ -106,7 +106,7 @@ if (isset($_POST['asset_submit']) && !empty($_POST['asset_submit'])) {
 		
     
     $_SESSION['success']    =   "Asset Entry process have been successfully completed.";
-    header("location: assets_entry.php");
+    header("location: assets-list.php");
     exit();
 	}
 		
@@ -234,7 +234,7 @@ if(isset($_POST['asset_update_submit']) && !empty($_POST['asset_update_submit'])
 		$resultupdate = $conn->query($queryupdate);
 		
 		$_SESSION['success']    =   "Asset UPDATE process have been successfully updated.";
-		header("location: assets_edit.php?id=".$id);
+		header("location: asset_edit.php?id=".$id);
 		exit();
 		
 }
@@ -273,7 +273,7 @@ if(isset($_POST['assign_submit'])){
 				} */
 }
 
-/* if(isset($_POST['transfer_submit'])){
+if(isset($_POST['transfer_submit'])){
 
 	$product_id 	= $_POST['product_id'];
 	$employee_id 	= $_POST['employee_id'];
@@ -298,7 +298,7 @@ if(isset($_POST['assign_submit'])){
 		$_SESSION['success']    =   "Asset transfer process have been successfully Completed.";
 		header("location: assets-list.php");
 		exit();
-} */
+} 
 
 if(isset($_POST['return_submit'])){
 
@@ -407,40 +407,6 @@ if(isset($_POST['disposal_submit'])){
 		exit();
 }
 
-//member update:
-if (isset($_POST['member_update']) && !empty($_POST['member_update'])){    
-	$password		= (isset($_POST['password']) && !empty($_POST['password']) ? trim(mysqli_real_escape_string($conn,$_POST['password'])) : "");
-	$new_password      =  md5($password);
-    /*
-        *  Update Data Into inv_receive Table:
-    */
-    $table          = 'users';
-    
-        if(isset($_POST['edit_id']) && !empty($_POST['edit_id'])){
-            $res    =   update_member();
-            $_SESSION['success']    =   "Data have been successfully Updated.";
-        }else{
-			$_SESSION['error']		=   "Update Failed.";
-		}
-    header("location: dashboard.php");
-    exit();
-}
 
-
-function update_member(){
-    global $conn;
-    $password		= (isset($_POST['password']) && !empty($_POST['password']) ? trim(mysqli_real_escape_string($conn,$_POST['password'])) : "");
-	$new_password      =  md5($password);	
-    $param['fields'] = [
-        'password'          	=>  $new_password,
-        'is_password_changed'	=>  1,
-    ];
-    $param['where'] =[
-        'employee_id'    =>  $_POST['edit_id']
-    ];
-    $res     =   updateData('users',$param['fields'], $param['where']);
-    //$_SESSION['logged']['is_password_changed']  =   1;
-    return $res;
-}
 
 ?>

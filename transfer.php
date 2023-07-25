@@ -1,4 +1,5 @@
 <?php include 'header.php';
+include 'includes/asset_process.php';
     $_SESSION['activeMenu'] =   'agency';
 ?>
 <?php include 'top_sidebar.php'; ?>
@@ -119,7 +120,7 @@
 											</div>
 										</div>
 										<h3 style="color:red;">Want To Transfer This Product ?</h3>
-										<form action="movetotransfer.php" method="post" name="add_name" id="receive_entry_form" enctype="multipart/form-data" onsubmit="showFormIsProcessing('receive_entry_form');">
+										<form action="" method="post" name="add_name" id="receive_entry_form" enctype="multipart/form-data" onsubmit="showFormIsProcessing('receive_entry_form');">
 											<div class="row">
 												<div class="col-md-6">
 													<div class="form-group">
