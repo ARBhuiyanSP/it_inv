@@ -71,7 +71,7 @@ if (isset($rlpListData) && !empty($rlpListData)) {
                         <td>
                             <?php //if(hasAccessPermission($user_id_session, 'crlp', 'edit_access') && get_status_name($adata->rlp_status)!='Approve'){ ?>
                             <a title="Edit RLP" class="btn btn-sm btn-info" href="rlp_update.php?rlp_id=<?php echo $adata->id; ?>">
-                                <span class="fa fa-pencil"></span>
+                                <span class="fa fa-eye"> Details</span>
                             </a>
                             <?php //} ?>
                             
